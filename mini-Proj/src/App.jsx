@@ -4,6 +4,7 @@ export default function App(){
   return(
     <>
       <h1>This is a mini-vite app...</h1>
+      <p>counters that update separately..</p>
       <MyButton/>
       <MyButton/>
     </>

@@ -28,32 +28,49 @@
 // }
 
 
-import {useState} from 'react';
+// import {useState} from 'react';
 
-export default function App(){
+// export default function App(){
 
-  const [count, setCount] = useState(0);
+//   const [count, setCount] = useState(0);
 
-  function handleClick(){
-    setCount(count + 1);
+//   function handleClick(){
+//     setCount(count + 1);
 
-  }
+//   }
 
-  return(
-    <>    <h1>Two counts..</h1>
-    <p>These counts will run simultaneously</p>
-    <MyButton count={count} onClick={handleClick}/>
-    <MyButton count={count} onClick={handleClick}/>
-    </>
+//   return(
+//     <>    <h1>Two counts..</h1>
+//     <p>These counts will run simultaneously</p>
+//     <MyButton count={count} onClick={handleClick}/>
+//     <MyButton count={count} onClick={handleClick}/>
+//     </>
 
-  )
+//   )
 
-}
+// }
 
-function MyButton({count,onClick}){
-  return(
-    <>
-    <button onClick={onClick}>Count {count}</button>
-    </>
-  )
-}
+// function MyButton({count,onClick}){
+//   return(
+//     <>
+//     <button onClick={onClick}>Count {count}</button>
+//     </>
+//   )
+// }
+
+
+
+
+
+// function Demo(props){
+//   return(
+//       <p>{props.val} is my fav colour</p>
+//   )
+// }
+
+// export default function App(){
+//   return(
+//       <><h1>This is my favourite colour...</h1>
+//       <Demo val='blue'/></>
+//   )
+// }
